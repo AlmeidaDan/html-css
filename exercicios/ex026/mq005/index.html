@@ -4,12 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Media Query</title>
 </head>
 <body>
     <header>
         <h1>Flame Game News</h1>
-        <menu>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
             <ul>
                 <li><a href="#">Home</a></li>
                 <li><a href="#">Notícias</a></li>
@@ -42,8 +44,18 @@
             <p>Seu inventor o patenteou logo em seguida e, um ano depois, expôs o primeiro modelo do videogame, designado de Brown Box, o qual consistia de disputas de futebol, vôlei e tiro. Portanto, não foi o modelo Atari o primeiro game a ser comercializado no mercado de videogames, mas sim este ancestral dos games.</p>
             
             <p>Magnavox, uma filial da Philips sediada na Holanda, imediatamente se dispôs a lançar para o público consumidor o primeiro console de videogame, intitulado Odyssey 100. Deste primeiro console aos Nintendos, PlayStations e Xbox de hoje, este filão produtivo converteu-se, em princípios do século XXI, em uma empresa extremamente rendosa, captando assim investimentos de monta, que lhe permitem competir com a esfera cinematográfica e até mesmo transcender seus lucros.</p>
-            
+
         </article>
     </main>
+    <script>
+        function clickMenu() {
+           if (itens.style.display == 'block') {
+            itens.style.display = 'none'
+           }
+           else {
+            itens.style.display = 'block'
+           }
+        }
+    </script>
 </body>
 </html>
