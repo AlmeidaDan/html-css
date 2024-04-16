@@ -17,6 +17,7 @@ header {
 header > h1 {
     padding: 10px;
     text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.350);
 }
 
 i#burguer {
@@ -46,9 +47,11 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.350);
     background-color: rgb(85, 85, 85);
     color: white;
     border-top: 2px solid gray;
+    border-radius: 10px;
 }
 
 menu > ul > li > a:hover {
@@ -66,6 +69,7 @@ main {
 
 article > h2 {
     padding-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.350);
 }
 
 article > p {
